@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    
+    <!-- holds meta data, imports and references I guess -->
+    <head>
+        <!-- Importing css data -->
+        <!-- We say that we are importing a stylesheet, and where to find it -->
+        <link rel="stylesheet" href="main.css">
+        
+        <!-- This is bootstrap! basically it makes our website responsive to window/screen size 
+        we could also have a downloaded copy of this data andlink to it like our physical css, but not today -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        
+        <!-- bootstrap baiscally just divides the screen up into 12 colums. Elements on the page are placed within these colums and are sized to fit any given number of them, especially in regards to screen size. Splits can be 6 and 6, 8 and 4, 2 and 10, and so on. The page is also broken up in to rows that go down the entire length of the page. Elements can span across rows as well -->
+    </head>
+    
+    <!-- Holds website content, stuff displayed to users -->
+    <body>
+        <!-- Messing with bootstrap -->
+        
+        <div class ='row'> <!-- This is a class that is alreadt included with bootstrap -->
+            <div class="col-md-6">
+            <!-- making a class that specifies 'colums-medium sized screen-number of colums -->
+                <h2>I want to make a game</h2>
+            </div>
+            <div class="col-md-6">
+                <h2>Because discord game suck</h2>
+                <button class="btn btn-primary rounded-pill px-3" type="button">Primary</button>
+            </div>
+            <!-- What I just did was have 2 text colums side by side, both limited to half the page -->
+        </div>
+        
+        <!-- Header tag, h1 is the biggest type of header -->
+        <h1> Hello World</h1>
+        <!-- We have now linked these 2 different elements h3 and p together, meaning they can be modified together -->
+        <div class="italic">
+            <h3>blue</h3>
+            <p>red</p>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="italics">
+            <ul>
+                <li>Purple</li>
+                <li>Yellow</li>
+            </ul>
+        
+        </div>
+        <br>
+        <br>
+        <div id="bold">
+            <p>YELLING</p>
+        </div>
+        <br>
+        <br>
+        <h3> A smaller header, smallest is h6</h3>
+        <p> a paragraph, not bolded</p>
+        <!-- break lines, space out the website-->
+        <br>
+        <br>
+        <img src="https://glitch.com/edit/favicon-app.ico" >
+    </body>
+</html>

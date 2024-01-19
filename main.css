@@ -1,0 +1,16 @@
+/* CSS styling. It gets more complex but this is early stuff*/
+/* First we will be changing the color of all h3 tags in our index file */
+
+h3 {
+    color: blueviolet;
+}
+
+/* the dot class name referce to the div we created in our HTML file */
+.italic {
+    font-style: italic;
+}
+
+/* we can also call by 'id' but these can only be used once/ not applied to multiple dive unlike 'class' names */
+#bold {
+    font-weight: bolder;
+}
